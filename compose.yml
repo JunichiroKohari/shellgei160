@@ -1,0 +1,7 @@
+services:
+  app:
+    image: ubuntu
+    volumes:
+      - type: bind
+        source: "./qdata"
+        target: "/qdata"
